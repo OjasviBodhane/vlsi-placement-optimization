@@ -1,0 +1,33 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Python
+backend/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Project data
+backend/data/
+backend/results/
+backend/models/
+backend/demo/
+backend/benchmarks/
+*.db
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets
+.env
+.env.*
+
+# Generated reports
+*.log
